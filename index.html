@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ส่วนตัวของฉัน</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Sarabun', sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1a73e8;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffffff;
+            margin: 40px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #1a73e8;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .project-card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffffff;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .contact h2 {
+            color: #1a73e8;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a73e8;
+            color: #ffffff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyWebsite</div>
+            <div class="nav-links">
+                <a href="#home">หน้าแรก</a>
+                <a href="#projects">ผลงาน</a>
+                <a href="#contact">ติดต่อ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+            <p>นักพัฒนาเว็บและนักออกแบบที่หลงใหลในการสร้างสรรค์</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="project-card">
+                <h3>โปรเจกต์ที่ 1</h3>
+                <p>รายละเอียดเกี่ยวกับโปรเจกต์ที่น่าสนใจของคุณ</p>
+            </div>
+            <div class="project-card">
+                <h3>โปรเจกต์ที่ 2</h3>
+                <p>รายละเอียดเกี่ยวกับโปรเจกต์ที่น่าสนใจของคุณ</p>
+            </div>
+            <div class="project-card">
+                <h3>โปรเจกต์ที่ 3</h3>
+                <p>รายละเอียดเกี่ยวกับโปรเจกต์ที่น่าสนใจของคุณ</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>ติดต่อฉัน</h2>
+            <p>อีเมล: your.email@example.com</p>
+            <p>GitHub: github.com/yourusername</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. สงวนลิขสิทธิ์.</p>
+    </footer>
+</body>
+</html>
